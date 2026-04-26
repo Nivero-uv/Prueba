@@ -89,11 +89,6 @@ In both cases it is compulsory that the DPO and/or the legal representative of t
 [Table 1](#tab_DTA-1) summarises the actions for the Data Holders opting for the Data Transfer model and [Table 2](#tab_DSA-1) for the Data Holders who will set up a federated node.
 
 ### <a id="tab_DTA-1"></a>
-### <a id="tab_DSA-1"></a>
-
-{% tabs %}
-
-{% tab title="Data Transfer" %}  
 
 | Data Transfer |  |  |
 | :---- | :---- | :---- |
@@ -103,9 +98,7 @@ In both cases it is compulsory that the DPO and/or the legal representative of t
 
 [Table 1](#table_DTA-1): Summary of steps to be completed for Data Transfer case.
 
-{% endtab %}
-
-{% tab title="Data Sharing" %} 
+### <a id="tab_DSA-1"></a> 
 
 | Data Sharing |  |  |
 | :---- | :---- | :---- |
@@ -116,10 +109,6 @@ In both cases it is compulsory that the DPO and/or the legal representative of t
 | Contact point for the negotiation (Only in federated nodes) | The LS-AAI details of the data holder delegate who will interact with the Data User through the negotiator. | [Registration of users in EUCAIM](https://drive.google.com/file/d/1EsFYxbzqpyYKggyeKrKKw3FkVecDby8P/view) LS-AAI.  |
 
 [Table 2](#table_DSA-1): Summary of steps to be completed for Data Sharing case
-
-{% endtab %}
-
-{% endtabs %}
 
 
 [^3]:  *See [D5.6 Minimum Data Federation and Interoperability Framework](https://drive.google.com/file/d/1URY8jtofLQpokTh7Hzag2wFFV9r1d_fs/view?usp=sharing)* *section 3 and [https://eucaim.gitbook.io/architecture-of-eucaim/4.-detailed-architecture](https://eucaim.gitbook.io/architecture-of-eucaim/4.-detailed-architecture)* 
