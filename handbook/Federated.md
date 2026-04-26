@@ -7,6 +7,8 @@ This section describes the requirements and process of setting up a node, includ
 
 Data holders who opt to host the data locally must set up a local node capable of storing and processing the data extracted, anonymised and standardised. The requirements for the node depend on the amount of data to be processed. [Table 7](#tab_localnodespec2) and [Table 8](#tab_localnodespec3) show the minimum required expected for Tier 2 and Tier 3 node.
 
+### <a id="tab_localnodespec2"></a>
+
 | Hardware | Minimum |
 | :---- | :---- |
 | CPU | 4 Cores /8 Threads |
@@ -15,6 +17,8 @@ Data holders who opt to host the data locally must set up a local node capable o
 | Data Storage | 1x (Dataset size) Drives |
 
 [Table 7](#table_localnodespec2): *Minimum hardware requirements for Tier 2 nodes.*
+
+### <a id="tab_localnodespec3"></a>
 
 | Hardware | Minimum/Recommended |
 | :---- | :---- |
@@ -56,13 +60,15 @@ The registration of the dataset on the public catalogue has been described in se
 
 ![Figure 11: Workflow for the tier 1 compliance in a Federated node.](figures/image10.png)
 
+### <a id="tab_tier1fednode"></a>
+
 | Action | Purpose | Link |
 | :---- | :---- | :---- |
 | Set up of the local catalogue | Deployment of a local instance of the catalogue to populate it with the information of the datasets provided by the Data Holder | [Gitlab repository](https://gitlab.com/radiology/infrastructure/studies/eucaim/molgenis-emx2-eucaim) |
 | Population of the data | Data should follow the EUCAIM interoperability schema. A sample file can be used to fill-in the information of the datasets and to create the schemas on the database. Detailed information is provided in [https://github.com/EUCAIM/End-User-Guide/blob/main/6-UserGuide4Members.md\#631-tier-1-compliance](https://github.com/EUCAIM/End-User-Guide/blob/main/6-UserGuide4Members.md#631-tier-1-compliance)  | [Sample file with the schema](https://docs.google.com/spreadsheets/d/19DDoFq-_Bj7wfEf5KjkISe13kS-W5EYQ/edit?usp=sharing&ouid=102741390744373897413&rtpof=true&sd=true). |
 | Federation of the catalogue **(in progress)**  | Enable automatic synchronisation of the local catalogue with the central one. | In progress |
 
-[Table 9](#table_tier1fednode): Set up a federated Catalogue
+[Table 9](#tab_tier1fednode): Set up a federated Catalogue
 
 ## 7.3. Tier 2 compliance
 
