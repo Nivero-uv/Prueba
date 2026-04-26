@@ -95,7 +95,7 @@ In both cases it is compulsory that the DPO and/or the legal representative of t
 
 {% tab title="Data Transfer" %}  
 
-| **Data Transfer** |  |  |
+| Data Transfer |  |  |
 | :---- | :---- | :---- |
 | **Action** | **Description** | **Documents** |
 | Provide documentation | - Proof of legal representative, and legal basis if necessary.<br> - A copy of a favorable ethical approval (if applicable).<br> - A report from the DPO confirming legal compliance.<br> - Security compliance.<br> - GDPR compliance.<br> - Data Protection Impact Assessment (if applicable).<br> - Any documents required under the national legislation.<br> - Evidence of an adequate anonymization/pseudonymization process that has been carried out | For more information see primarily the [Legal Handbook](https://docs.google.com/document/d/1U-RpFycjXEVP-4-l9ppveT654x78Dhlw/edit?tab=t.0), [D4.4 Final rules for participation report](https://drive.google.com/drive/folders/1dn1xQB9K7Fn3WzzqN5HRiQ7NiVwYt0yy) (See Sections 4.4.1 (Legal requirements) and 4.4.2 (Ethical requirements for Data Holders)) <br> - Find also here the template for the DPO report: [faq_DPO_template.docx - Google Docs](https://docs.google.com/document/d/1KHf1nlCxFB1BjhhQXHVo4zVSoOBorL_X/edit) |
@@ -107,7 +107,7 @@ In both cases it is compulsory that the DPO and/or the legal representative of t
 
 {% tab title="Data Sharing" %} 
 
-| **Data Sharing** |  |  |
+| Data Sharing |  |  |
 | :---- | :---- | :---- |
 | **Action** | **Description** | **Documents** |
 | Provide documentation | - Proof of legal representative, and legal basis if necessary.<br>- A copy of a favourable ethical approval (if applicable).<br>- A report from the DPO confirming legal compliance.<br>- GDPR compliance.<br>- Data Protection Impact Assessment (if applicable).<br>- Evidence of an adequate anonymization/pseudonymization process that has been carried out.<br>- Documents demonstrating the security of the information system.<br>- Any documents required under your national legislation.<br>| For more information see primarily the [Legal Handbook](https://docs.google.com/document/d/1U-RpFycjXEVP-4-l9ppveT654x78Dhlw/edit?tab=t.0), [D4.4 Final rules for participation report](https://drive.google.com/drive/folders/1dn1xQB9K7Fn3WzzqN5HRiQ7NiVwYt0yy) (See Sections 4.4.1 (Legal requirements) and 4.4.2 (Ethical requirements for Data Holders)) <br> - Find also here the template for the DPO report: [faq_DPO_template.docx - Google Docs](https://docs.google.com/document/d/1KHf1nlCxFB1BjhhQXHVo4zVSoOBorL_X/edit)  |
