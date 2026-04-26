@@ -10,81 +10,38 @@ provided in the following sections, but the outline is the following:
 
 |  Requirement for | Dataset remains on premises  | Dataset is exported to a reference node  |
 | ----------- | ----------- | ----------------- |
-| **Tier 1 compliance**  | <ul>
-<li>Dataset must be registered in the public catalogue.</li>
-<li>Image and clinical data must be linked using a single, consistent
-patient identifier (patientID), preserved across all preparation
-steps.</li>
-<li>No entity (e.g. patient, observation, study, series) may be
-duplicated within the dataset.</li></ul>  | <ul>
-<li>Dataset must be registered in the public catalogue.</li>
-<li>Image and clinical data must be linked using a single, consistent
-patient identifier (patientID), preserved across all preparation
-steps.</li>
-<li>No entity (e.g. patient, observation, study, series) may be
-duplicated within the dataset.</li>
-<li>De-identification and quality check is required prior to
-transfer.</li>
-<li>Imaging data must be accompanied by a set of minimum clinical
-metadata. Only-imaging datasets, with imaging attributes only, will be
-considered case-by-case before acceptance in the platform.</li>
-<li>To transfer the data to a reference node, format for images
-should be preferably DICOM objects. NIfTI could be also handled by both
-reference nodes (add link to instructions as ref).</li>  |
-| **Tier 2 compliance**  | <ul>
-<li>Compliance with Tier 1 requirements</li>
-<li>The metadata required for the federated search must be
-standardized and semantically aligned with the EUCAIM
-hyper-ontology.</li>
-<li>Compliance with the EUCAIM Common Data Model (CDM) is
-<strong>recommended but not mandatory</strong>. If the data is not
-transformed to the EUCAIM CDM, you must instead implement a mapping
-component that translates local data to the searchable variables
-required by the federated search.</li>
-<li>A query service component should be installed to run the
-search.</li>
-</ul>  | <ul>
-<li>Compliance with Tier 1 requirements</li>
-<li>The metadata required for the federated search must be
-standardized and semantically aligned with the EUCAIM
-hyper-ontology.</li>
-<li>Compliance with the EUCAIM Common Data Model (CDM) is
-<strong>recommended but not mandatory</strong>. If the data is not
-transformed to the EUCAIM CDM, you must instead implement a mapping
-component that translates local data to the searchable variables
-required by the federated search.</li>
-</ul>  |
-| **Tier 3 compliance**  | <ul>
-<li>Compliance with Tier 1 and  tier 2 requirements</li>
-<li>Provide imaging data in DICOM format; associated annotations and
-segmentations, when available, must be in DICOM-SEG format. Exceptions
-may be considered for diagnostic images in other formats, on a
-case-by-case basis.</li>
-<li>Full compliance with the EUCAIM Common Data Model (CDM) is
-required.</li>
-<li>Organize imaging and clinical data following the EUCAIM common
-file structure.</li>
-<li>Materialize imaging and clinical metadata according to the EUCAIM
-CDM.</li>
+| **Tier 1 compliance**  | <ul><li>Dataset must be registered in the public catalogue.</li>
+<li>Image and clinical data must be linked using a single, consistent patient identifier (patientID), preserved across all preparation steps.</li>
+<li>No entity (e.g. patient, observation, study, series) may be duplicated within the dataset.</li></ul>  
+| <ul><li>Dataset must be registered in the public catalogue.</li>
+<li>Image and clinical data must be linked using a single, consistent patient identifier (patientID), preserved across all preparation steps.</li>
+<li>No entity (e.g. patient, observation, study, series) may be duplicated within the dataset.</li>
+<li>De-identification and quality check is required prior to transfer.</li>
+<li>Imaging data must be accompanied by a set of minimum clinical metadata. Only-imaging datasets, with imaging attributes only, will be considered case-by-case before acceptance in the platform.</li>
+<li>To transfer the data to a reference node, format for images should be preferably DICOM objects. NIfTI could be also handled by both reference nodes (add link to instructions as ref).</li>  |
+| **Tier 2 compliance**  | 
+<ul><li>Compliance with Tier 1 requirements</li>
+<li>The metadata required for the federated search must be standardized and semantically aligned with the EUCAIM hyper-ontology.</li>
+<li>Compliance with the EUCAIM Common Data Model (CDM) is **recommended but not mandatory**. If the data is not transformed to the EUCAIM CDM, you must instead implement a mapping component that translates local data to the searchable variables required by the federated search.</li>
+<li>A query service component should be installed to run thesearch.</li></ul>  | 
+<ul><li>Compliance with Tier 1 requirements</li>
+<li>The metadata required for the federated search must be standardized and semantically aligned with the EUCAIM hyper-ontology.</li>
+<li>Compliance with the EUCAIM Common Data Model (CDM) is **recommended but not mandatory**. If the data is not transformed to the EUCAIM CDM, you must instead implement a mapping component that translates local data to the searchable variables required by the federated search.</li></ul> |
+| **Tier 3 compliance**  | <ul><li>Compliance with Tier 1 and  tier 2 requirements</li>
+ <li>Provide imaging data in DICOM format; associated annotations and segmentations, when available, must be in DICOM-SEG format. Exceptions
+may be considered for diagnostic images in other formats, on a case-by-case basis.</li>
+<li>Full compliance with the EUCAIM Common Data Model (CDM) is required.</li>
+<li>Organize imaging and clinical data following the EUCAIM common file structure.</li> 
+<li>Materialize imaging and clinical metadata according to the EUCAIM CDM.</li> 
 <li>Data should be integrated into the materializer
-component.</li>
-</ul>  | <ul>
-<li>Compliance with Tier 1 and Tier 2 requirements</li>
-<li>Provide imaging data in DICOM format; associated annotations and
-segmentations, when available, must be in DICOM-SEG format. Exceptions
-may be considered for diagnostic images in other formats, on a
-case-by-case basis.</li>
-<li>Full compliance with the EUCAIM Common Data Model (CDM) is
-required.</li>
-<li>Organize imaging and clinical data following the EUCAIM common
-file structure.</li>
-<li>Materialize imaging and clinical metadata according to the EUCAIM
-CDM.</li>
-<li>Data should be integrated into the materializer
-component.</li>
-</ul> |
+component.</li></ul>  | <ul><li>Compliance with Tier 1 and Tier 2 requirements</li>
+<li>Provide imaging data in DICOM format; associated annotations and segmentations, when available, must be in DICOM-SEG format. Exceptions may be considered for diagnostic images in other formats, on a case-by-case basis.</li>
+<li>Full compliance with the EUCAIM Common Data Model (CDM) is required.</li>
+<li>Organize imaging and clinical data following the EUCAIM common file structure.</li>
+<li>Materialize imaging and clinical metadata according to the EUCAIM CDM.</li>
+<li>Data should be integrated into the materializer component.</li></ul> |
 
- 
+
 
 | **Minimum metadata requirements for the imaging and clinical data:** | | |
 
