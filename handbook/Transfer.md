@@ -29,7 +29,7 @@ The workflow for uploading the datasets is described in [Figure 10](#fig_datain
 | 9 | Upload clinical Data  | Once medical imaging data is uploaded, you can proceed with the clinical data. If you decide to convert the data through the [ETL](https://bio.tools/eetl_toolset) inside the node and this process is expected to be long, we encourage you to create an “image-only” dataset by skipping this step.  |
 | 10 | Create and Publish the Dataset | The creation of a dataset is described in section 6.2.2.3  of the the User Guide for Data Holders ([https://eucaim.gitbook.io/enduserguide/6-userguide4members#id-6.2.-contribution-through-data-transfer](https://eucaim.gitbook.io/enduserguide/6-userguide4members#id-6.2.-contribution-through-data-transfer)). Once the dataset is created, additional metadata of the dataset can be added and the dataset published as described in 6.2.3.4 of the same document.  The user can “release” the dataset and then it will be validated by the responsible of the platform. Once it is validated, the dataset will be published. Publishing a dataset only exposes the aggregated metadata and no individual data is released. |
 
-[Table 5](#tab_6REFUPV): Uploading data in the UPV reference node. Steps 1 to 4 are described in section 5\.
+[Table 5](#tab_6REFUPV) Uploading data in the UPV reference node. Steps 1 to 4 are described in section 5\.
 
 ### <a id="tab_6REFHRI"></a>
 
@@ -43,4 +43,4 @@ The workflow for uploading the datasets is described in [Figure 10](#fig_datain
 | 9 | Upload clinical Data  | Once medical imaging data is uploaded, you can proceed with the clinical data. [XNATpy](https://xnat.readthedocs.io/en/latest/) can be used to upload the CSV or JSON to XNAT.  |
 | 10 | Create and Publish the Dataset | The project in XNAT should be set to protected (or public) to make the metadata visible.  |
 
-[Table 6](#tab_6REFHRI): Uploading data in the Health-RI reference node. Steps 1 to 3 are described in section 5\.
+[Table 6](#tab_6REFHRI) Uploading data in the Health-RI reference node. Steps 1 to 3 are described in section 5\.
