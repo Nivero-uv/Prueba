@@ -15,8 +15,7 @@ provided in the following sections, but the outline is the following:
 | **Tier 3 compliance**  | <ul><li>Compliance with Tier 1 and  tier 2 requirements</li><li>Provide imaging data in DICOM format; associated annotations and segmentations, when available, must be in DICOM-SEG format. Exceptions may be considered for diagnostic images in other formats, on a case-by-case basis.</li><li>Full compliance with the EUCAIM Common Data Model (CDM) is required.</li><li>Organize imaging and clinical data following the EUCAIM common file structure.</li><li>Materialize imaging and clinical metadata according to the EUCAIM CDM.</li><li>Data should be integrated into the materializer component.</li></ul> | <ul><li>Compliance with Tier 1 and Tier 2 requirements</li><li>Provide imaging data in DICOM format; associated annotations and segmentations, when available, must be in DICOM-SEG format. Exceptions may be considered for diagnostic images in other formats, on a case-by-case basis.</li><li>Full compliance with the EUCAIM Common Data Model (CDM) is required.</li><li>Organize imaging and clinical data following the EUCAIM common file structure.</li><li>Materialize imaging and clinical metadata according to the EUCAIM CDM.</li><li>Data should be integrated into the materializer component.</li></ul> |
 
 
-
-| **Minimum metadata requirements for the imaging and clinical data:** | | |
+## **Minimum metadata requirements for the imaging and clinical data:** 
 
 ### Minimum imaging attributes (from DICOM metadata)
 
