@@ -16,7 +16,7 @@ Data holders who opt to host the data locally must set up a local node capable o
 | Operating System Drive | 160+ GB SSD |
 | Data Storage | 1x (Dataset size) Drives |
 
-[Table 7](#table_localnodespec2): *Minimum hardware requirements for Tier 2 nodes.*
+[Table 7](#table_localnodespec2) *Minimum hardware requirements for Tier 2 nodes.*
 
 ### <a id="tab_localnodespec3"></a>
 
@@ -28,7 +28,7 @@ Data holders who opt to host the data locally must set up a local node capable o
 | GPU | Minimum: \>150 Tensor Cores 16GB VRAM |
 | Motherboard | 4+ RAM Slot |
 
-[Table 8](#table_localnodespec3)*: Minimum hardware requirements for Tier 3 nodes*
+[Table 8](#table_localnodespec3) *Minimum hardware requirements for Tier 3 nodes*
 
 A detailed description on the needs and components required for the local node can be found in [D5.6](https://drive.google.com/file/d/1URY8jtofLQpokTh7Hzag2wFFV9r1d_fs/view?usp=sharing%20), section 3.7*.*
 
@@ -68,7 +68,7 @@ The registration of the dataset on the public catalogue has been described in se
 | Population of the data | Data should follow the EUCAIM interoperability schema. A sample file can be used to fill-in the information of the datasets and to create the schemas on the database. Detailed information is provided in [https://github.com/EUCAIM/End-User-Guide/blob/main/6-UserGuide4Members.md\#631-tier-1-compliance](https://github.com/EUCAIM/End-User-Guide/blob/main/6-UserGuide4Members.md#631-tier-1-compliance)  | [Sample file with the schema](https://docs.google.com/spreadsheets/d/19DDoFq-_Bj7wfEf5KjkISe13kS-W5EYQ/edit?usp=sharing&ouid=102741390744373897413&rtpof=true&sd=true). |
 | Federation of the catalogue **(in progress)**  | Enable automatic synchronisation of the local catalogue with the central one. | In progress |
 
-[Table 9](#tab_tier1fednode): Set up a federated Catalogue
+[Table 9](#tab_tier1fednode) Set up a federated Catalogue
 
 ## 7.3. Tier 2 compliance
 
