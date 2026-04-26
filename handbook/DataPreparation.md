@@ -252,7 +252,7 @@ strategies.
 
 ### <a id="fig_dataanon"></a>
 
-[Figure 9. Retrieving SITE ID from the Dashboard](figures/figure8a.png)
+![Figure 9. Retrieving SITE ID from the Dashboard](figures/figure8a.png)
 
 #### **Step 3: Data quality check**
 
