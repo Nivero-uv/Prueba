@@ -86,9 +86,9 @@ The first step will be to Complete the ethical training[^6] via the Moodle platf
 
 In both cases it is compulsory that the DPO and/or the legal representative of the Data Holder confirm that they are aware about the transfer or sharing the data within EUCAIM and the security measures that must be taken. 
 
-[Table 1](#tab_DTA-1) summarises the actions for the Data Holders opting for the Data Transfer model and [Table 2](#tab_DSA-1) for the Data Holders who will set up a federated node.
+[Table 1](#tab_dta1) summarises the actions for the Data Holders opting for the Data Transfer model and [Table 2](#tab_dsa1) for the Data Holders who will set up a federated node.
 
-### <a id="tab_DTA-1"></a>
+### <a id="tab_dta1"></a>
 
 | Data Transfer |  |  |
 | :---- | :---- | :---- |
@@ -96,9 +96,9 @@ In both cases it is compulsory that the DPO and/or the legal representative of t
 | Provide documentation | - Proof of legal representative, and legal basis if necessary.<br> - A copy of a favorable ethical approval (if applicable).<br> - A report from the DPO confirming legal compliance.<br> - Security compliance.<br> - GDPR compliance.<br> - Data Protection Impact Assessment (if applicable).<br> - Any documents required under the national legislation.<br> - Evidence of an adequate anonymization/pseudonymization process that has been carried out | For more information see primarily the [Legal Handbook](https://docs.google.com/document/d/1U-RpFycjXEVP-4-l9ppveT654x78Dhlw/edit?tab=t.0), [D4.4 Final rules for participation report](https://drive.google.com/drive/folders/1dn1xQB9K7Fn3WzzqN5HRiQ7NiVwYt0yy) (See Sections 4.4.1 (Legal requirements) and 4.4.2 (Ethical requirements for Data Holders)) <br> - Find also here the template for the DPO report: [faq_DPO_template.docx - Google Docs](https://docs.google.com/document/d/1KHf1nlCxFB1BjhhQXHVo4zVSoOBorL_X/edit) |
 | Data Transfer Agreement | Fill-in and sign the DTA once all the legal documentation have been provided | [DTA](https://drive.google.com/file/d/1TTuaFo4cWwomLJBtQbs_lkrBNFVSLH_L/view?usp=drive_link) |
 
-[Table 1](#tab_DTA-1): Summary of steps to be completed for Data Transfer case.
+[Table 1](#tab_dta1): Summary of steps to be completed for Data Transfer case.
 
-### <a id="tab_DSA-1"></a> 
+### <a id="tab_dsa1"></a> 
 
 | Data Sharing |  |  |
 | :---- | :---- | :---- |
@@ -108,7 +108,7 @@ In both cases it is compulsory that the DPO and/or the legal representative of t
 | Define especial Access Conditions | A Document to be signed by the Data User that indicates the conditions under the Data User can access the data. | [Draft Template](https://drive.google.com/file/d/1UMdDF52mXGHNIL0GegzfyuSBVfKCIl7d/view?usp=sharing) |
 | Contact point for the negotiation (Only in federated nodes) | The LS-AAI details of the data holder delegate who will interact with the Data User through the negotiator. | [Registration of users in EUCAIM](https://drive.google.com/file/d/1EsFYxbzqpyYKggyeKrKKw3FkVecDby8P/view) LS-AAI.  |
 
-[Table 2](#tab_DSA-1): Summary of steps to be completed for Data Sharing case
+[Table 2](#tab_dsa1): Summary of steps to be completed for Data Sharing case
 
 
 [^3]:  *See [D5.6 Minimum Data Federation and Interoperability Framework](https://drive.google.com/file/d/1URY8jtofLQpokTh7Hzag2wFFV9r1d_fs/view?usp=sharing)* *section 3 and [https://eucaim.gitbook.io/architecture-of-eucaim/4.-detailed-architecture](https://eucaim.gitbook.io/architecture-of-eucaim/4.-detailed-architecture)* 
