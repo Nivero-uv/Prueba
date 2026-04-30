@@ -591,7 +591,7 @@ Even if you are already anonymizing data using your own methods, we strongly rec
   - The anonymized DICOM images.
   - A modified CSV file where the original IDs are replaced by the new hashed IDs.”
 
-([Figure 7](#fig_datatools). The use of [**<u>Lethe EUCAIM Anonymizer</u>**](https://harbor.eucaim.cancerimage.eu/harbor/projects/3/repositories/lethe-dicom-anonymizer/) requires:
+([Figure 7](#fig_datatools)). The use of [**<u>Lethe EUCAIM Anonymizer</u>**](https://harbor.eucaim.cancerimage.eu/harbor/projects/3/repositories/lethe-dicom-anonymizer/) requires:
 
 - The patient ID linking clinical and imaging data must be identical and
   listed as the first variable in the clinical dataset for tabular 
