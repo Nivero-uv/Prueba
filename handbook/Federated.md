@@ -5,9 +5,9 @@ This section describes the requirements and process of setting up a node, includ
 
 ## 7.1. Setting up the node
 
-Data holders who opt to host the data locally must set up a local node capable of storing and processing the data extracted, anonymised and standardised. The requirements for the node depend on the amount of data to be processed. [Table 7](#tab_localnodespecTwo) and [Table 8](#tab_localnodespecThree) show the minimum required expected for Tier 2 and Tier 3 node.
+Data holders who opt to host the data locally must set up a local node capable of storing and processing the data extracted, anonymised and standardised. The requirements for the node depend on the amount of data to be processed. [Table 7](#tab_localnodespectwo) and [Table 8](#tab_localnodespecthree) show the minimum required expected for Tier 2 and Tier 3 node.
 
-### <a id="tab_localnodespecTwo"></a>
+### <a id="tab_localnodespectwo"></a>
 
 | Hardware | Minimum |
 | :---- | :---- |
@@ -16,9 +16,9 @@ Data holders who opt to host the data locally must set up a local node capable o
 | Operating System Drive | 160+ GB SSD |
 | Data Storage | 1x (Dataset size) Drives |
 
-[Table 7](#tab_localnodespecTwo): *Minimum hardware requirements for Tier 2 nodes.*
+[Table 7](#tab_localnodespectwo): *Minimum hardware requirements for Tier 2 nodes.*
 
-### <a id="tab_localnodespecThree"></a>
+### <a id="tab_localnodespecthree"></a>
 
 | Hardware | Minimum/Recommended |
 | :---- | :---- |
@@ -28,9 +28,9 @@ Data holders who opt to host the data locally must set up a local node capable o
 | GPU | Minimum: \>150 Tensor Cores 16GB VRAM |
 | Motherboard | 4+ RAM Slot |
 
-[Table 8](#tab_localnodespecThree): *Minimum hardware requirements for Tier 3 nodes*
+[Table 8](#tab_localnodespecthree): *Minimum hardware requirements for Tier 3 nodes*
 
-A detailed description on the needs and components required for the local node can be found in [D5.6](https://drive.google.com/file/d/1URY8jtofLQpokTh7Hzag2wFFV9r1d_fs/view?usp=sharing%20), section 3.7*.*
+A detailed description on the needs and components required for the local node can be found in [D5.6](https://drive.google.com/file/d/1URY8jtofLQpokTh7Hzag2wFFV9r1d_fs/view?usp=sharing%20), section 3.7.
 
 The processing capacity should be dimensioned to the amount of data available and it should be audited periodically.
 
