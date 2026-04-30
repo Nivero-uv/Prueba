@@ -25,6 +25,7 @@ The information on the usage of the platform is available in different sources:
 
 ![Figure 4: Sources of information for Data Holders.](figures/image4.png)
 
+### <a id="table_document"></a> 
 
 | Support source | Purpose | Link (s) |
 | :---- | :---- | :---- |
@@ -49,6 +50,5 @@ The issue will be addressed within 48 hours, and the data holder will receive an
 ## 4.3. EUCAIM training platform: Overview of courses and access  
 
 ### <a id="fig_training"></a> 
-
 ![Figure 5: Schema of the training modules.](figures/image5.png)
 
