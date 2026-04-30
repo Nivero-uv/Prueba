@@ -65,7 +65,7 @@ The registration of the dataset on the public catalogue has been described in se
 | Action | Purpose | Link |
 | :---- | :---- | :---- |
 | Set up of the local catalogue | Deployment of a local instance of the catalogue to populate it with the information of the datasets provided by the Data Holder | [Gitlab repository](https://gitlab.com/radiology/infrastructure/studies/eucaim/molgenis-emx2-eucaim) |
-| Population of the data | Data should follow the EUCAIM interoperability schema. A sample file can be used to fill-in the information of the datasets and to create the schemas on the database. Detailed information is provided in [https://github.com/EUCAIM/End-User-Guide/blob/main/6-UserGuide4Members.md\#631-tier-1-compliance](https://github.com/EUCAIM/End-User-Guide/blob/main/6-UserGuide4Members.md#631-tier-1-compliance)  | [Sample file with the schema](https://docs.google.com/spreadsheets/d/19DDoFq-_Bj7wfEf5KjkISe13kS-W5EYQ/edit?usp=sharing&ouid=102741390744373897413&rtpof=true&sd=true). |
+| Population of the data | Data should follow the EUCAIM interoperability schema. A sample file can be used to fill-in the information of the datasets and to create the schemas on the database. Detailed information is provided in [https://eucaim.gitbook.io/enduserguide/](https://eucaim.gitbook.io/enduserguide/6-userguide4members#id-6.3.2.-tier-1-compliance)  | [Sample file with the schema](https://docs.google.com/spreadsheets/d/19DDoFq-_Bj7wfEf5KjkISe13kS-W5EYQ/edit?usp=sharing&ouid=102741390744373897413&rtpof=true&sd=true). |
 | Federation of the catalogue **(in progress)**  | Enable automatic synchronisation of the local catalogue with the central one. | In progress |
 
 [Table 9](#tab_tier1fednode): Set up a federated Catalogue
