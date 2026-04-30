@@ -146,9 +146,6 @@ helpdesk  - in the enrollment group - to speed up the process of approval
 Below is a step-by-step guide on how to access
 the Harbor repository and download the required tools.
 
-
-
-
 #### Access to the EUCAIM drive repository
 
 ([https://drive.eucaim.cancerimage.eu/apps/files/files/1520?dir=/Applications](https://drive.eucaim.cancerimage.eu/apps/files/files/1520?dir=/Applications))
