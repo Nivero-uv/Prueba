@@ -139,7 +139,7 @@ The binaries of the tools can be downloaded from:
 ([https://harbor.eucaim.cancerimage.eu/harbor/projects/3/repositories](https://harbor.eucaim.cancerimage.eu/harbor/projects/3/repositories))
 
 The access to the registry requires a valid account and additional
-permissions that can be requested on the first access to the registry. Instructions on how to request access and download tools are available [here](https://drive.eucaim.cancerimage.eu/s/pxpTJWSTFsLbqPQ?dir=/&editing=false&openfile=true)\.
+permissions that can be requested on the first access to the registry. Instructions on how to request access and download tools are available [here](https://drive.eucaim.cancerimage.eu/s/pxpTJWSTFsLbqPQ?dir=/&editing=false&openfile=true).
 
 It is advisable that once data holders request access to the registry, they open a ticket in the EUCAIM
 helpdesk  - in the enrollment group - to speed up the process of approval
@@ -178,7 +178,7 @@ reference node environments after transferring the data.
 
 **Format standardization (optional)**: it is recommended that your
 imaging raw data are in DICOM format, and that your annotations are in
-DICOM-SEG.\
+DICOM-SEG.
 
 Tools: If you have existing annotation files
 that are not in DICOM-SEG, you may use the EUCAIM [**<u>Annotation Seg
@@ -222,7 +222,7 @@ If your imaging data are not already de-identified, you may use the
 Special attention must be given to **embedded text** in images, which
 may contain patient-identifiable information, as well as **craniofacial
 images** that pose a risk of patient re-identification. You may need to
-apply additional de-identification techniques to mitigate this risk.\
+apply additional de-identification techniques to mitigate this risk.
 
 Tools: Tools such as the [**<u>DICOM defacing anonymisation</u>**](https://bio.tools/dicom_defacing_anonymation) tool
 from the EUCAIM catalogue ([Figure 7](#fig_datatools)) may be used to remove facial
@@ -235,7 +235,7 @@ images.
 **Re-identification risk assessment (optional)**: Even if no automatic
 re-identification risk analysis on a combination of clinical and imaging
 metadata is possible at this Tier, you should carefully assess that no
-direct or indirect identifiers are present in your data.\
+direct or indirect identifiers are present in your data.
 
 Tools: For assessing the risk of
 re-identification of patients based on your **imaging metadata** before
@@ -465,7 +465,7 @@ be merged on both columns."
 
 Example: in the Overarching episode tab, column K, the “Histological
 type” variable strictly follows the SNOMEDCT standard; line 4 specifies
-“SNOMEDCT”, and an example value is provided on line 5.\
+“SNOMEDCT”, and an example value is provided on line 5.
 Important: both information must be separated by a comma, without space
 
 - if the variable follows specific standard with in-house coding or
@@ -507,7 +507,7 @@ the clinical information you provide, especially the timepoints of each
 episode, we need to retrieve the correspondence between each imaging
 study and each clinical episode.
 
-***Before de-identification of your dataset\****, please create a
+***Before de-identification of your dataset***, please create a
 tabular csv file that contains the following information:
 
 - **PatientID** - the exact one from your DICOM images (attribute
@@ -618,7 +618,7 @@ Special attention should be given to **embedded text** in images, that
 may contain patient-identifiable information, as well as **skull and
 head images** that pose a risk of patient re-identification. You may
 need to apply additional de-identification techniques to mitigate this
-risk.\
+risk.
 
 Tools: Tools such as the [**<u>DICOM defacing anonymisation</u>**](https://bio.tools/dicom_defacing_anonymation) tool
 from the EUCAIM catalogue ([Figure 7](#fig_datatools)) may be used to remove facial
@@ -630,7 +630,7 @@ images.
 
 **Re-identification risk assessment for imaging and clinical data
 (optional)**: Before sharing your dataset, you should carefully assess
-that no direct or indirect identifiers are present in your data.\
+that no direct or indirect identifiers are present in your data.
 
 Tools: Extraction of imaging metadata to feed
 the wizard tool is possible by using the [**<u>DICOM tags extractor</u>**](https://bio.tools/dicom_tags_extractor) tool (
