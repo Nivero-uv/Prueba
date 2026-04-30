@@ -16,7 +16,7 @@ Data holders who opt to host the data locally must set up a local node capable o
 | Operating System Drive | 160+ GB SSD |
 | Data Storage | 1x (Dataset size) Drives |
 
-[Table 7](#table_localnodespecTwo): *Minimum hardware requirements for Tier 2 nodes.*
+[Table 7](#tab_localnodespecTwo): *Minimum hardware requirements for Tier 2 nodes.*
 
 ### <a id="tab_localnodespecThree"></a>
 
@@ -28,7 +28,7 @@ Data holders who opt to host the data locally must set up a local node capable o
 | GPU | Minimum: \>150 Tensor Cores 16GB VRAM |
 | Motherboard | 4+ RAM Slot |
 
-[Table 8](#table_localnodespecThree): *Minimum hardware requirements for Tier 3 nodes*
+[Table 8](#tab_localnodespecThree): *Minimum hardware requirements for Tier 3 nodes*
 
 A detailed description on the needs and components required for the local node can be found in [D5.6](https://drive.google.com/file/d/1URY8jtofLQpokTh7Hzag2wFFV9r1d_fs/view?usp=sharing%20), section 3.7*.*
 
@@ -48,7 +48,7 @@ The federated nodes have to guarantee that they commit enough resources to deal 
 
 The compliance at the Tier 1 level implies that the metadata of the datasets follow the  EUCAIM DCAT-AP specification. In this case, the data holder can decide to register the datasets directly on the EUCAIM public catalogue or to set up its own federated registry. At this moment in time, we recommend the former, as the harvester will be released soon. 
 
-The registration of the dataset on the public catalogue has been described in section 5.1 / Table 4 of this document. The set up of a local catalogue is optional and it is described in [figure 11](#fig_tierOnefednode) and [table 9](#tab_tierOnefednode), and comprise the following actions:
+The registration of the dataset on the public catalogue has been described in section 5.1 / Table 4 of this document. The set up of a local catalogue is optional and it is described in [figure 11](#fig_tier1fednode) and [table 9](#tab_tier1fednode), and comprise the following actions:
 
 - Dataset metadata preparation. This implies identifying the data to be shared and packaged into a dataset, the extraction of the metadata and the appropriate coding into the EUCAIM DCAT-AP terminology and vocabularies. This has been covered in section 5 of this document.
 
@@ -56,11 +56,11 @@ The registration of the dataset on the public catalogue has been described in se
 
 - In the coming future, we will support the federation of datasets through a pull model in which datasets’ metadata is harvested by the central catalogue. This will require deploying a local registry and populating it with the information of the DH’s datasets.
 
-### <a id="fig_tierOnefednode"></a>
+### <a id="fig_tier1fednode"></a>
 
 ![Figure 11: Workflow for the tier 1 compliance in a Federated node.](figures/image10.png)
 
-### <a id="tab_tierOnefednode"></a>
+### <a id="tab_tier1fednode"></a>
 
 | Action | Purpose | Link |
 | :---- | :---- | :---- |
@@ -68,7 +68,7 @@ The registration of the dataset on the public catalogue has been described in se
 | Population of the data | Data should follow the EUCAIM interoperability schema. A sample file can be used to fill-in the information of the datasets and to create the schemas on the database. Detailed information is provided in [https://github.com/EUCAIM/End-User-Guide/blob/main/6-UserGuide4Members.md\#631-tier-1-compliance](https://github.com/EUCAIM/End-User-Guide/blob/main/6-UserGuide4Members.md#631-tier-1-compliance)  | [Sample file with the schema](https://docs.google.com/spreadsheets/d/19DDoFq-_Bj7wfEf5KjkISe13kS-W5EYQ/edit?usp=sharing&ouid=102741390744373897413&rtpof=true&sd=true). |
 | Federation of the catalogue **(in progress)**  | Enable automatic synchronisation of the local catalogue with the central one. | In progress |
 
-[Table 9](#tab_tierOnefednode): Set up a federated Catalogue
+[Table 9](#tab_tier1fednode): Set up a federated Catalogue
 
 ## 7.3. Tier 2 compliance
 
