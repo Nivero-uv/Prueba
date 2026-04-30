@@ -434,7 +434,7 @@ of variables available in your dataset.
 3.  Separate all episodes into different tabs as described above, except
     for Diagnosis that belongs to the Overarching episode.
 
-Note: episodes may correspond to the following: Treatment, Progression,
+\*Note: episodes may correspond to the following: Treatment, Progression,
 Relapse, Remission, Active Surveillance.
 
 4.  For each variable of your dataset, find the corresponding entity and
@@ -516,7 +516,7 @@ tabular csv file that contains the following information:
 - **StudyUID** - the exact one from your DICOM images (attribute
   (0020,000D))
 
-\*<u>Note: if your dataset is already anonymized</u>, you can still use
+\*Note: if your dataset is already anonymized, you can still use
 the DICOM tags extraction tool to provide the file, proceed with step 2
 and skip step 3. It is important that you can still link the
 (anonymized) PatientID with the episodes and timepoints.
@@ -555,7 +555,7 @@ You then need to edit the output file by adding the “Episode” and
 
 - **Timepoint** - As there can be multiple imaging procedures per
   episode, please number all studies in ascending order (1, 2, 3,…).
-  Note : the numbering only concerns imaging procedures, not any other
+  \*Note: the numbering only concerns imaging procedures, not any other
   procedure in between.
 
 ### <a id="tab_correspond_studyid"></a>
