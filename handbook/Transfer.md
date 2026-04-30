@@ -18,7 +18,7 @@ The workflow for uploading the datasets is described in [Figure 10](#fig_datain
 
 ![Figure 10. Steps in the process of transferring data to the nodes. Steps in purple are covered in section 5\. Steps in blue (5-10) are described in tables Table 5 and Table 6 .](figures/image9.png)
 
-### <a id="tab_REFUPV"></a>
+### <a id="tab_refupv"></a>
 
 | \# | Action | Documentation / Links |
 | :---- | :---- | :--------------- |
@@ -33,9 +33,9 @@ The workflow for uploading the datasets is described in [Figure 10](#fig_datain
 |---|---|---|
 | 10 | Create and Publish the Dataset | The creation of a dataset is described in section 6.2.2.3  of the the User Guide for Data Holders ([https://eucaim.gitbook.io/enduserguide/6-userguide4members#id-6.2.-contribution-through-data-transfer](https://eucaim.gitbook.io/enduserguide/6-userguide4members#id-6.2.-contribution-through-data-transfer)). Once the dataset is created, additional metadata of the dataset can be added and the dataset published as described in 6.2.3.4 of the same document.  The user can “release” the dataset and then it will be validated by the responsible of the platform. Once it is validated, the dataset will be published. Publishing a dataset only exposes the aggregated metadata and no individual data is released. |
 
-[Table 5](#tab_REFUPV): Uploading data in the UPV reference node. Steps 1 to 4 are described in section 5\.
+[Table 5](#tab_refupv): Uploading data in the UPV reference node. Steps 1 to 4 are described in section 5\.
 
-### <a id="tab_REFHRI"></a>
+### <a id="tab_refhri"></a>
 
 | \# | Action | Documentation / Links |
 | :---- | :---- | :---- |
@@ -51,4 +51,4 @@ The workflow for uploading the datasets is described in [Figure 10](#fig_datain
 |---|---|---|
 | 10 | Create and Publish the Dataset | The project in XNAT should be set to protected (or public) to make the metadata visible.  |
 
-[Table 6](#tab_REFHRI): Uploading data in the Health-RI reference node. Steps 1 to 3 are described in section 5\.
+[Table 6](#tab_refhri): Uploading data in the Health-RI reference node. Steps 1 to 3 are described in section 5\.
