@@ -22,7 +22,6 @@ The information on the usage of the platform is available in different sources:
 - The HelpDesk, for requesting support when facing issues or when direct interaction is required (e.g. for requesting the uploading data, registering a dataset, etc.).
 
 ### <a id="fig_support"></a>
-
 ![Figure 4: Sources of information for Data Holders.](figures/image4.png)
 
 ### <a id="table_document"></a> 
