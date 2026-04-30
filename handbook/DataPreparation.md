@@ -107,7 +107,6 @@ technical support team can assist you
 throughout this process via the Helpdesk.
 
 ### <a id="fig_datatools"></a>
-
 |    |    |
 |---|---|
 | ![https://bio.tools/mitk](figures/mitk.png)                       | ![https://hub.docker.com/r/mariov687/dicomseg](figures/seg-convert.png) |
@@ -529,16 +528,12 @@ retrieve the following attributes from your imaging dataset (cf tool
 documentation): PatientID, StudyUID, StudyDate, Study description [Table 4](#tab_dicom_tags_selection).
 
 ### <a id="tab_dicom_tags_selection"></a>
-
-
-
 | **PatientID (0010,0020)** | **StudyUID (0020,000D)** | **StudyDate (0008,0020)** | **StudyDescription (0008,1030)** |
 | ------------------------- | ------------------------------------------------------------------- | ------------------------- | -------------------------------- |
 | ABC-000103                | 1.2.824.0.2.3886579.08.383.1010.6135                                | 2018-12-11                | Whole Body I-131 CT              |
 | ABC-000103                | 1.2.824.0.2.4653289.08.563.1010.4679                                | 2018-12-23                | Screening-Bilateral Mammography  |
 | ABC-000103                | 1.2.824.0.2.06135249.08.647.2304.7961                               | 2019-01-13                | I131 high dose                   |
 | ABC-000107                | 1.2.824.0.2.4862015.07.383.5623.6820                                | 2017-05-17                | Bilat Mammography                |
-
 
 [Table 4](#tab_dicom_tags_selection): Example output file of the dicom_tags_selection script. The
 StudyDate, and StudyDescription in Study are provided for indication
@@ -559,14 +554,12 @@ You then need to edit the output file by adding the “Episode” and
   procedure in between.
 
 ### <a id="tab_correspond_studyid"></a>
-
 | **PatientID (0010,0020)** | **StudyUID (0020,000D)** | **StudyDate (0008,0020)** | **StudyDescription (0008,1030)** | **Episode** | **Imaging Timepoint** |
 | ------------------------- | ------------------------------------------------------------------- | ------------------------- | -------------------------------- | ----------- | --------------------- |
 | ABC-000103                | 1.2.824.0.2.3886579.08.383.1010.6135                                | 2018-12-11                | Whole Body I-131 CT              | Diagnosis   | 1                     |
 | ABC-000103                | 1.2.824.0.2.4653289.08.563.1010.4679                                | 2018-12-23                | Screening-Bilateral Mammography  | Diagnosis   | 2                     |
 | ABC-000103                | 1.2.824.0.2.06135249.08.647.2304.7961                               | 2019-01-13                | I131 high dose                   | Treatment   | 3                     |
 | ABC-000107                | 1.2.824.0.2.4862015.07.383.5623.6820                                | 2017-05-17                | Bilat Mammography                | Diagnosis   | 1                     |
-
 
 [Table 5](#tab_correspond_studyid): Example of edited file with correspondence between StudyUID
 and both Episode and Timepoint. The part in blue corresponds to the
@@ -601,7 +594,7 @@ Even if you are already anonymizing data using your own methods, we strongly rec
   - The anonymized DICOM images.
   - A modified CSV file where the original IDs are replaced by the new hashed IDs.”
 
-([<u>Figure 7</u>](#fig_datatools). The use of [**<u>Lethe EUCAIM Anonymizer</u>**](https://harbor.eucaim.cancerimage.eu/harbor/projects/3/repositories/lethe-dicom-anonymizer/) requires:
+([Figure 7](#fig_datatools). The use of [**<u>Lethe EUCAIM Anonymizer</u>**](https://harbor.eucaim.cancerimage.eu/harbor/projects/3/repositories/lethe-dicom-anonymizer/) requires:
 
 - The patient ID linking clinical and imaging data must be identical and
   listed as the first variable in the clinical dataset for tabular 
@@ -728,7 +721,6 @@ For your imaging dataset:
 > helpdesk</u>](https://help.cancerimage.eu/).
 
 ### <a id="tab_correspond_series"></a>
-
 | **Source series Description**         | **EUCAIM series description** |
 |---------------------------------------|-------------------------------|
 | AXIALT2TSE                            | T2 weighted                   |
@@ -772,7 +764,6 @@ number of cases is final (e.g. after the data quality check). [Table 7](#tab_ste
 below describes the steps to register your metadata.
 
 ### <a id="tab_steps_meta_reg"></a> 
-
 | Action | Description | Support |
 | -------- | -------- | -------- |
 | Provide the dataset's metadata in the spreadsheet template (Data Holder Template sheet) | The dataset schema can be downloaded from this [link](https://docs.google.com/spreadsheets/d/1cj6YzIAchHnEKlH612gO91WzHfEOB4TbwBrl9a0kgE0/edit?usp=sharing). In case of doubts with the terminology, use textual descriptions. | A helpdesk ticket on the category of catalogue. |
