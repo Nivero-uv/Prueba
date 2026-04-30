@@ -28,6 +28,7 @@ The workflow for uploading the datasets is described in [Figure 10](#fig_datain
 | 8 | Upload Imaging Data  | The instructions for using the tool are available in the User Guide for Data Holders ([https://eucaim.gitbook.io/enduserguide/6-userguide4members](https://eucaim.gitbook.io/enduserguide/6-userguide4members)). Proceed initially uploading medical imaging data. |
 | 9 | Upload clinical Data  | Once medical imaging data is uploaded, you can proceed with the clinical data. If you decide to convert the data through the [ETL](https://bio.tools/eetl_toolset) inside the node and this process is expected to be long, we encourage you to create an “image-only” dataset by skipping this step.  |
 > ⚠️ Attention! Please, do not proceed with the metadata release until you are declared legally compliant by your correspondent EUCAIM legal team member after providing all the requirements and the DTA/DSA has been signed by both the legal representative of your institution and EUCAIM’s Scientific Director (Dr. Luís Martí). 
+
 |   |   |   |
 |---|---|---|
 | 10 | Create and Publish the Dataset | The creation of a dataset is described in section 6.2.2.3  of the the User Guide for Data Holders ([https://eucaim.gitbook.io/enduserguide/6-userguide4members#id-6.2.-contribution-through-data-transfer](https://eucaim.gitbook.io/enduserguide/6-userguide4members#id-6.2.-contribution-through-data-transfer)). Once the dataset is created, additional metadata of the dataset can be added and the dataset published as described in 6.2.3.4 of the same document.  The user can “release” the dataset and then it will be validated by the responsible of the platform. Once it is validated, the dataset will be published. Publishing a dataset only exposes the aggregated metadata and no individual data is released. |
@@ -45,6 +46,7 @@ The workflow for uploading the datasets is described in [Figure 10](#fig_datain
 | 8 | Upload Imaging Data  | Upload the imaging data using CTP, see manual here: [https://gitlab.com/radiology/infrastructure/data-curation-tools/ctp-standalone/-/blob/a195e33ff9711da8e5abefc8285c443b40b8502a/Manuals/EUCAIM%20XNAT%20Central%20Repository.pdf](https://gitlab.com/radiology/infrastructure/data-curation-tools/ctp-standalone/-/blob/a195e33ff9711da8e5abefc8285c443b40b8502a/Manuals/EUCAIM%20XNAT%20Central%20Repository.pdf)  |
 | 9 | Upload clinical Data  | Once medical imaging data is uploaded, you can proceed with the clinical data. [XNATpy](https://xnat.readthedocs.io/en/latest/) can be used to upload the CSV or JSON to XNAT.  |
 > ⚠️ Attention! Please, do not proceed with the metadata release until you are declared legally compliant by your correspondent EUCAIM legal team member after providing all the requirements and the DTA/DSA has been signed by both the legal representative of your institution and EUCAIM’s Scientific Director (Dr. Luís Martí). 
+
 |   |   |   |
 |---|---|---|
 | 10 | Create and Publish the Dataset | The project in XNAT should be set to protected (or public) to make the metadata visible.  |
