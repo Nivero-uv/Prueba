@@ -12,7 +12,7 @@ Details on the features supported by each Reference node are provided in [D5.6](
 
 ## 6.2. Transferring data to the nodes
 
-The workflow for uploading the datasets is described in [Figure 10](#fig_dataing1). [Table 5](#tab_REFUPV) and [Table 6](#tab_REFHRI) describe the individual steps required to fulfil the process for each one of the reference nodes.
+The workflow for uploading the datasets is described in [Figure 10](#fig_dataing1). [Table 5](#tab_refupv) and [Table 6](#tab_refhri) describe the individual steps required to fulfil the process for each one of the reference nodes.
 
 ### <a id="fig_dataing1"></a>
 
