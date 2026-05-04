@@ -58,7 +58,7 @@ The registration of the dataset on the public catalogue has been described in se
 
 ### <a id="fig_tier1fednode"></a>
 
-![Figure 11: Workflow for the tier 1 compliance in a Federated node.](figures/image10.png)
+<figure><img src="figures/image10.png" width="500"><figcaption><p>Figure 11: Workflow for the tier 1 compliance in a Federated node.</p></figcaptio></figure>
 
 ### <a id="tab_tier1fednode"></a>
 
