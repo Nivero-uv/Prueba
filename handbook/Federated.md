@@ -58,7 +58,7 @@ The registration of the dataset on the public catalogue has been described in se
 
 ### <a id="fig_tier1fednode"></a>
 
-<figure><img src="figures/image10.png" width="500"><figcaption><p>Figure 11: Workflow for the tier 1 compliance in a Federated node.</p></figcaptio></figure>
+<figure><img src="figures/image10.png" width="500"><figcaption><p>Figure 11: Workflow for the tier 1 compliance in a Federated node.</p></figcaption></figure>
 
 ### <a id="tab_tier1fednode"></a>
 
@@ -81,7 +81,7 @@ The steps needed to integrate the local node are described in [figure 12](#fig_
 
 ### <a id="fig_tier2fednode"></a>
 
-![Figure 12: Actions to integrate a federated node in the tier 2 level.](figures/image11.png)
+<figure><img src="figures/image11.png" width="500"><figcaption><p>Figure 12: Actions to integrate a federated node in the tier 2 level.</p></figcaption></figure>
 
 The actions corresponding to the federated search are described in the gitbook ([https://eucaim.gitbook.io/enduserguide/6-userguide4members\#id-6.3.-contribution-through-a-federated-node](https://eucaim.gitbook.io/enduserguide/6-userguide4members#id-6.3.-contribution-through-a-federated-node)) .
 
