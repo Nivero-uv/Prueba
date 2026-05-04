@@ -81,7 +81,7 @@ The steps needed to integrate the local node are described in [figure 12](#fig_
 
 ### <a id="fig_tier2fednode"></a>
 
-<figure><img src="figures/image11.png" width="500"><figcaption><p>Figure 12: Actions to integrate a federated node in the tier 2 level.</p></figcaption></figure>
+<figure><img src="figures/image11.png" width="600"><figcaption><p>Figure 12: Actions to integrate a federated node in the tier 2 level.</p></figcaption></figure>
 
 The actions corresponding to the federated search are described in the gitbook ([https://eucaim.gitbook.io/enduserguide/6-userguide4members\#id-6.3.-contribution-through-a-federated-node](https://eucaim.gitbook.io/enduserguide/6-userguide4members#id-6.3.-contribution-through-a-federated-node)) .
 
