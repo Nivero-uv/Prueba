@@ -24,9 +24,9 @@ Table of contents
 
 
 
-[**1\. Introduction**](introduction)
+[**1\. Introduction**](Introduction.md)
 
-[**2\. Governance**](governance)
+[**2\. Governance**](Governance.md)
   
 &nbsp;&nbsp;&nbsp;&nbsp;[2.1. Data governance](Governance.md#id-2.1.-data-governance)
 
