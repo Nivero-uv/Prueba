@@ -34,7 +34,7 @@ Table of contents
   
 &nbsp;&nbsp;&nbsp;&nbsp;[3.1. Initial requirements and commitments](Onboarding.md#id-3.1.-initial-requirements-and-commitments)
   
-&nbsp;&nbsp;&nbsp;&nbsp;[3.2. Legal documents.](Onboarding.md#id-3.2.-legal-documents)
+&nbsp;&nbsp;&nbsp;&nbsp;[3.2. Legal documents](Onboarding.md#id-3.2.-legal-documents)
 
 [**4\. Support and communication**](Support.md)
   
