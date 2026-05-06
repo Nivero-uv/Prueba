@@ -34,7 +34,7 @@ EUCAIM defines a federated infrastructure in which nodes provide with data and s
 
 
 
-## 3.2. Legal documents.
+## 3.2. Legal documents
 
 This section summarises the legal documentation that is required to become a Data Holder in EUCAIM. This information is much more detailed (and potentially more up-to-date) in the Legal Handbook of the project, available in this [link](https://docs.google.com/document/d/1U-RpFycjXEVP-4-l9ppveT654x78Dhlw/edit). We recommend going through the Legal Handbook when requesting and preparing the information and use the information below as a general guidance.
 A set of legal agreements must be prepared and signed to clearly state the obligations and responsibilities of the parties involved. The process is simpler in the case of Data Transfer Data Holders, as documents related to security and Service Level Agreements are provided by the reference nodes where the data will be deposited. Federated nodes have to provide a guarantee that they can fulfill the security and performance requirements[^5]. [Figure 3](#fig_legaldiagram) graphically shows the information and steps required for the legal framework of EUCAIM. 
