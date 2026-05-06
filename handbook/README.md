@@ -24,7 +24,7 @@ Table of contents
 
 
 
-[**1\. Introduction**](Introduction)
+[**1\. Introduction**](Introduction.md)
 
 [**2\. Governance**](Governance.md)
   
